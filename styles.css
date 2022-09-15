@@ -184,24 +184,24 @@ button {
 
 /* meadia queries */
 
-@media only screen and (max-width: 540px) {
-  #histories {
+ @media  screen and (max-width:540px) {
+   #histories{
     grid-template-columns: repeat(1, 1fr);
-  }
-  .card {
+   }
+   .card{
     flex-direction: column;
-  }
-}
+   }
+ }
 
-@media only screen and (min-width: 541px) and (max-width: 980px) {
-  .box-container {
-    padding: 0 20px;
-    width: 100%;
-  }
-  .card {
-    flex-direction: column;
-  }
-  #histories {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+ @media screen and (min-width: 541px) and (max-width: 980px){
+     .box-container{
+      padding: 0 20px;
+      width:  100%;
+     }
+     .card{
+      flex-direction: column;
+     }
+     #histories{
+      grid-template-columns: repeat(2, 1fr);
+     }
+ }
